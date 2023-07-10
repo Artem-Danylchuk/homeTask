@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>question one</title>
+</head>
+<body>
+
+<h1>Дайте відповідь на питання: </h1>
+
+<form action="/answer1" method="POST">
+    <br/>
+    <div>
+        <h3>Вкажіть вашу стать</h3>
+        <p><input type="radio" name="test" value="man"/> Чоловік.</p>
+        <p><input type="radio" name="test" value="female"/> Жінка.</p>
+    </div>
+</form>
+<form action="/answer2" method="POST">
+    <div>
+        <h3>Вам більше 26 років? </h3>
+        <p><input type="radio" name="test2" value="yes"/> Так.</p>
+        <p><input type="radio" name="test2" value="no"/> Ні.</p>
+    </div>
+</form>
+<form action="/submit" method="POST">
+    <div>
+        <button type="submit">Перейти до результатів.</button>
+    </div>
+</form>
+</form>
+</body>
+</html>
